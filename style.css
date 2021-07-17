@@ -1,0 +1,97 @@
+body{
+background-color:white;
+background-size:1920px 700px;
+}
+.top{
+    display: flex;
+}
+.title{
+    font-weight: 300px;
+    font-size: 20px;
+    color: red;
+    position:relative;left:205px; top: 5px;
+    margin-top: 5px;
+    margin-right: 200px;
+    padding:5px;
+
+}
+.logo{
+
+    margin-top: 2px;
+    position:relative; right: 10px;
+    margin-left: 5px;
+
+    }
+    .about{
+        position: relative; left:400px; bottom:350px;
+        border:2px solid gold;
+        padding:5px 2px 5px 2px;
+        height:200px;
+        width:900px;
+        margin-top: 2px;
+        font-size: 20px;
+        margin-right: 5px;
+        font-weight: 400;
+    }
+    #ab{
+        display: inline;
+    }
+
+}
+#AP{
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: xx-large;
+    font-style: italic;
+    height: 10px;
+    width:70px;
+}
+#Wem{
+    background-color: lightgre;
+    border-radius: 2px;
+    text-align : center;
+    text-decoration: chocolate;
+
+}
+.lion{
+    width:50 px;
+    height:30px;
+    position: relative ; left:50px; top:50px;
+}
+.elephant{
+width:100px;
+height:80px;
+
+}
+.leopard {
+    width:50;
+    height:60px;
+    }
+.buffalo{
+    width:50;
+    height:60px;
+    }
+ .wolf {
+     width:50;
+     height:60px;
+    }
+.hippo{
+     width:50;
+     height:60px;
+        }
+.zebra{
+    width:50;
+     height:60px;
+     }
+.rhino{
+     width:50;
+    height:60px;
+     }
+.bear {
+    width:50;
+    height:60px;
+    }
+.girrafee{
+  width:50;
+ height:60px;
+ }
