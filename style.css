@@ -8,8 +8,22 @@ background-color: goldenrod;
     /* color: black; */
     text-align: center;
     font-family: cursive;
-    background-color: hotpink;
+    background-color:cyan;
+
 }
+a:link{
+    color: skyblue;
+    
+}
+a:visited{
+    color: darkcyan;
+    
+}
+a:hover{
+    color: green;
+    
+}
+
 
 .logo{
     width:150px;
