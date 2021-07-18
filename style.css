@@ -1,89 +1,104 @@
 body{
 background-color:white;
-background-size: 1020px 1020px;
+max-width:100%;
+border: 2px solid;
+max-height: fit-content;
 }
-.top{
-    display: flex;
-}
+
 .title{
-    font-weight: 300px;
+    font-weight: 700px;
     font-size: 20px;
     color: red;
-    position:relative;left:205px; top: 5px;
-    margin-top: 5px;
+    position:relative;left:300px; bottom: 30px;
+    margin-bottom: 5px;
     margin-right: 200px;
     padding:5px;
+    text-align: center;
+    font-family: cursive;
 
 }
 .logo{
 
-    margin-top: 2px;
-    position:relative; right: 10px ;bottom:5px;
+    margin-bottom: 15px;
+    position:relative; left: 2px ;bottom:110px; 
     margin-left: 5px;
+    height: 250px;
+    width:200px;
+    overflow: hidden;
 
     }
-    .about{
-        position: relative; left:400px; bottom:350px;
-        padding:5px 2px 5px 2px;
+ .about{
+        position: relative; left:250px; bottom:330px;
         height:300px;
-        width:950px;
-        margin-top: 2px;
+        width:1000px;
         font-size: 20px;
-        margin-right: 5px;
         font-weight: 400;
         color: tomato;
         border:1px solid black;
-        text-align: justify;
-        background-color: crimson;
+        text-align: center;
+        margin-top: 20px;
+        
     }
-    #ab{
-        display: inline;
-    }
-
-
-#AP{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:black;
-    font-size: xx-large;
-    font-style: italic;
-    height: 10px;
-    width:70px;
-}
-
+   
 .lion{
-
-    position: relative ; right:20px; bottom:320px;
-    margin-left: 15px;
-    text-align: justify;
+ position: relative ; right:20px; bottom:325px;
+    margin-left: 30px;
+    text-align: left;
     font-size: 20px;
+    width:650px;
+    height:400px;
+    overflow:hidden;
+    
 }
+
 .elephant{
-position: relative; right:20px; bottom:350px;
+position: relative; left:650px; bottom:720px;
+margin-left:20px; 
+overflow: hidden;
+font-size: 20px;
+height:452px;
+width:590px;
 
 }
+.wolf {
+    width: 850px;;
+    height:450px;
+    position:relative;right:2px;bottom:872px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: left;
+   }
 .leopard {
-    width:50;
-    height:60px;
-    position:relative; left:600px; bottom:2200px;
-    text-align: right;
+    width:350px;
+    height:250px;
+    position:relative; left:685px; bottom:1250px;
+    text-align: justify;
     font-size:20px;
     margin-top:70px;
     }
-.buffalo{
-    width:50;
-    height:60px;
-    }
- .wolf {
-     width:50;
-     height:60px;
-    }
+    .buffalo{
+        width:450px;
+        height:300px;
+        position: relative; left:230px;bottom: 1158px;
+        font-size: 20px;
+        text-align: center;
+        
+        
+        }
+    
+
+ 
 .hippo{
-     width:50;
-     height:60px;
+     width:500px;
+     height:700px;
+     position:relative;left:690px;bottom:1480px;
+     text-align:right;
+     font-size:20px;
         }
 .zebra{
-    width:50;
-     height:60px;
+    width:350px;
+     height:600px;
+     position:relative;left:5px; bottom:1100px;
      }
 .rhino{
      width:50;
@@ -92,8 +107,6 @@ position: relative; right:20px; bottom:350px;
 .bear {
     width:50;
     height:60px;
+    position:relative;right:550px;bottom:1500px;
     }
-.girrafee{
-  width:50;
- height:60px;
- }
+
