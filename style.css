@@ -1,19 +1,26 @@
 body{
-max-width:100%;
-border: 2px solid;
-background-color: chartreuse;
+width:100%;
+height: 100 vh;
+padding:0px;
+margin:0px;
+/*background-color: goldenrod;*/
 }
-
+html{
+    height:200%;
+    width:100%
+}
 .title{
     font-weight: 700px;
     font-size: 20px;
     color: black;
-    position:relative;left:300px; bottom: 30px;
+    position:relative;left:200px; bottom: 20px;
     margin-bottom: 5px;
     margin-right: 200px;
     padding:5px;
     text-align: center;
     font-family: cursive;
+    border-radius:25px solid red;
+    background-color: hotpink;
 
 
 }
@@ -28,31 +35,32 @@ background-color: chartreuse;
 
     }
  .about{
-        position: relative; left:250px; bottom:330px;
-        height:300px;
-        width:1000px;
+        position: relative; left:250px; bottom:250px;
+        height:100px;
+        width:2500px;
         font-size: 20px;
         font-weight: 400;
         color: black;
         border-radius: 2px;
         text-align: center;
         margin-top: 20px;
+        background-color: gray;
+      /*  background-image: url(/IP1_Photography/Images/deer.jpg);*/
         
     }
    
 .lion{
- position: relative ; right:20px; bottom:325px;
+ position: relative ; left:400px; bottom:400px;
     margin-left: 30px;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     width:650px;
     height:400px;
-    overflow:hidden;
     
 }
 
 .elephant{
-position: relative; left:650px; bottom:720px;
+position: relative; right:280px; top:60px;
 margin-left:20px; 
 overflow: hidden;
 font-size: 20px;
@@ -63,64 +71,65 @@ width:590px;
 .wolf {
     width: 850px;;
     height:450px;
-    position:relative;right:2px;bottom:872px;
+    position:relative;right:250px;bottom:320px;
     margin-top: 0px;
     font-size: 20px;
     text-align: left;
    }
-.leopard {
-    width:350px;
-    height:250px;
-    position:relative; left:685px; bottom:1250px;
-    text-align: justify;
-    font-size:20px;
-    margin-top:70px;
-    }
-    .buffalo{
+
+.tiger{
+     font-size:20px;
+    position:relative;right:10px;bottom:280px;
+
+     }
+     .leopard {
+        width:350px;
+        height:250px;
+        position:relative; right:300px; bottom:300px;
+        text-align: right;
+        font-size:20px;
+        margin-top:70px;
+        }
+     
+     .zebra{
+        width:350px;
+         height:600px;
+         position:relative;right:250px; top:10px;
+         font-size: 20px;
+         text-align: left;
+         }
+     .buffalo{
         width:450px;
         height:300px;
-        position: relative; left:230px;bottom: 1158px;
+        position: relative; left:800px;bottom: 100px;
         font-size: 20px;
-        text-align: center;
+        text-align: left;
+        margin-left: 0px;
         
         
         }
-    
 
- 
-.hippo{
-     width:500px;
-     height:700px;
-     position:relative;left:690px;bottom:1480px;
-     text-align:right;
-     font-size:20px;
+     .rhino{
+        width:300px;
+       height:60px;
+       position:relative;right:250px; top:100px;
+       text-align: justify;
+       font-size: 20px;
         }
-.zebra{
-    width:350px;
-     height:600px;
-     position:relative;left:680px; bottom:1410px;
-     font-size: 20px;
-     text-align: left;
-     }
-.rhino{
-     width:500px;
-    height:60px;
-    position:relative;left:10px; bottom:2100px;
-    text-align: left;
-    font-size: 20px;
-     }
-     .tiger{
-     font-size:20px;
+     .hippo{
+        width:450px;
+        height:600px;
+        position:relative;right:250px;top:900px;
+        text-align:justify;
+        font-size:20px;
+           }
 
-
-     }
-     .croco{
-font-size:20px;
-     }
      .giraffe{
-         position:relative;left:500px; bottom:620px;
+         height:fit-content;
+         position:relative;right:5px; top:1000px;
          font-size: 20px;
          text-align: right;
      }
+     
 
 
